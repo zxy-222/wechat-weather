@@ -1,0 +1,45 @@
+<view class="container">
+    <view class="content">
+        <image src="../../image/bg/bg.jpg"></image>
+        <view class="innerWrapper">
+            <view class="address">
+                {{location.addressComponent.city}}{{location.addressComponent.district}}{{location.addressComponent.street}}
+            </view>
+            <view class="nowTmp">
+                <text class="tmp">{{nowInfo.tmp}} ℃ </text>
+                <view class="status">
+                    <text>{{nowInfo.cond_txt}}</text>
+                    <image src="../../image/weatherIcon/{{nowInfo.cond_code}}.png"></image>
+                </view>
+            </view>
+            <view class="nowBottom">
+                <view class="fl section">
+                    <text>体感温度</text>
+                    <text>{{nowInfo.fl}}℃ </text>
+                </view>
+                <view class="pcpn section">
+                    <text>降水量</text>
+                    <text>{{nowInfo.pcpn}}</text>
+                </view>
+                <view class="wind section">
+                    <text>{{nowInfo.wind_dir}}</text>
+                    <text>{{nowInfo.wind_sc}}级</text>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="list" wx:if="{{weatherLists.length > 0}}">
+        <view class="day" wx:for="{{weatherLists}}" wx:key="item">
+            <view class="date">
+                {{item.day}}
+            </view>
+            <view class="cond">
+                <image src="../../image/weatherIcon/{{item.cond_code_d}}.png" ></image>
+                <text>{{item.cond_txt_d}}</text>
+            </view>
+            <view class="tmp">
+                <text>{{item.tmp_max}}℃ </text>/<text> {{item.tmp_min}}℃</text>
+            </view>
+        </view>
+    </view>
+</view>

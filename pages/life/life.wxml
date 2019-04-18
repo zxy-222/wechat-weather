@@ -1,0 +1,17 @@
+<view class="container">
+    <view class="title flexAround">
+        <view class="address">{{location.addressComponent.city}}</view>
+        <view class="titName">
+            <text>生活指数</text>
+            <text wx:if="{{update.loc}}" class="date">更新于{{update.loc}}</text>
+        </view>
+    </view>
+    <view class="content flexBetween" wx:if="{{lifestyle.length > 0}}">
+        <view class="item" wx:for="{{lifestyle}}" wx:key="item">
+            <image src="../../image/life/{{item.type}}.png"></image>
+            <text class="name">{{item.name}}</text>
+            <text class="brf">{{item.brf}}</text>
+        </view>
+    </view>
+    <view class="bottom"></view>
+</view>

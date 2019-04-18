@@ -1,0 +1,60 @@
+.container .title{
+    width: 100%;
+    height: 80rpx;
+    font-size: 30rpx;
+    color: #333;
+    padding-top:20rpx;
+    position: relative;
+}
+.container .title .address{
+    position: absolute;
+    left: 20rpx;
+    top: 20rpx;
+}
+.container .title .titName{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 40rpx;
+}
+.container .title .titName .date{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 26rpx;
+    margin-top: 15rpx;
+}
+.container .content{
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 50rpx;
+}
+.container .content .item{
+    width: 22%;
+    margin:0 1.5%;
+    padding: 20rpx 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50rpx;
+    background-color: rgba(255,255,255,.2);
+    box-shadow: 0 2rpx 2rpx 2rpx #ccc;
+    border-radius: 8rpx;
+}
+
+.container .content .item image{
+    display: block;
+    width: 128rpx;
+    height: 128rpx;
+}
+.container .content .item text{
+    font-size: 25rpx;
+    color: #e4800d;
+    margin-top: 10rpx;
+}
+.container .content .item .name{
+    font-size: 30rpx;
+    color: #00BBAE;
+}

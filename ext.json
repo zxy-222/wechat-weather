@@ -1,0 +1,17 @@
+{
+    "extEnable":  true,
+    "extAppid": "wx18829cc8ca774131",
+    "ext": {
+        "appApiUrl": "https://free-api.heweather.com",
+        "appApiKey": "wxa7d3231c463e2749",
+        "appApiSecret": "d62ab1315ac911679243e06c63b4e2a8",
+        "location": {},
+        "extAppId": "wx18829cc8ca774131"
+    },
+    "window": {
+        "backgroundTextStyle": "dark",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "Demo",
+        "navigationBarTextStyle": "black"
+    }
+}

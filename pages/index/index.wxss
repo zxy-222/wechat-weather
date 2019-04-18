@@ -1,0 +1,99 @@
+.contianer{
+    width: 100%;
+    height: 100%;
+}
+.content{
+    width: 100%;
+    height: 750rpx;
+    position: relative
+}
+.content image{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.content .innerWrapper{
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.content .innerWrapper .address{
+    width: 100%;
+    padding: 30rpx;
+    font-size: 40rpx;
+    color: #fff;
+}
+.content .nowTmp {
+    padding-left: 40rpx;
+}
+.content .nowTmp .tmp{
+    font-size: 48rpx;
+}
+.content .nowTmp .status {
+    display: flex;
+    margin-top: 20rpx;
+    align-items: center;
+}
+.content .nowTmp .status text{
+    font-size: 32rpx;
+    margin-right: 15rpx;
+}
+.content .nowTmp .status image{
+    display: block;
+    width: 100rpx;
+    height: 100rpx;
+}
+.content .innerWrapper .nowBottom{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    padding: 20rpx 0;
+}
+.content .nowBottom .section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 35rpx;
+    flex: 1;
+    border-right: 1rpx solid #fff;
+}
+.content .nowBottom .wind{
+    border-right: 0;
+}
+.content .nowBottom .section text{
+    margin-bottom: 15rpx;
+}
+.list{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20rpx 0;
+}
+.list .day{
+    width: 100%;
+    height: 140rpx;
+    font-size: 30rpx;
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20rpx 30rpx;
+    box-sizing: border-box;
+}
+.list .day .cond{
+    display: flex;
+    align-items: center;
+}
+.list .day .cond image{
+    display: block;
+    width: 100rpx;
+    height: 100rpx;
+    margin-right: 10rpx;
+}
+
