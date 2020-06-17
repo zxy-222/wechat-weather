@@ -1,0 +1,12 @@
+<template name="id_1">
+    <view class="id_1">
+        <view>1 显示完后再显示</view>
+<view class="example">
+  <view class="marquee_box">
+    <view class="marquee_text" style="{{orientation}}:{{marqueeDistance}}px;font-size: {{size}}px;">
+      {{text}}
+    </view>
+  </view>
+</view>
+    </view>  
+</template>

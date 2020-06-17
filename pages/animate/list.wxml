@@ -1,0 +1,9 @@
+<view class="animate-list">
+    <view class="wrapper-list">
+        <view class="item flexBetween" catchtap="toLink"  wx:for="{{lists}}" wx:key="item" data-id="{{item.id}}" data-name="{{item.name}}">
+            <text>{{item.name}}</text>
+            <image src="../../image/icons/arrow.png"></image>
+        </view>  
+    </view> 
+</view>
+  

@@ -1,0 +1,10 @@
+{
+    "navigationBarTitleText":"",
+    "usingComponents": {
+        "marquee": "./components/marquee/index",
+        "ripple": "./components/ripple/index",
+        "dropList": "./components/dropList/index",
+        "leftDelete": "./components/leftDelete/index",
+        "folder": "./components/folder/index"
+    }
+}

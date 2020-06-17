@@ -1,0 +1,18 @@
+<view class="animate-index">
+    <view wx:if="{{id == 1}}">
+        <marquee></marquee> 
+    </view>
+    <view wx:if="{{id == 2}}">
+       <ripple></ripple> 
+    </view>
+    <view wx:if="{{id == 3}}">
+        <dropList></dropList>
+    </view>
+    <view wx:if="{{id == 8}}">
+        <leftDelete></leftDelete>
+    </view>
+    <view wx:if="{{id == 27}}">
+        <folder></folder>
+    </view>  
+</view>
+  

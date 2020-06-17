@@ -1,0 +1,10 @@
+<view class="left-delete-wrap">
+    <view class="items">
+        <view class="item" wx:for="{{ list }}" wx:key="{{ index }}">
+            <view class="inner txt" bindtouchstart="touchStart" bindtouchmove="touchMove" bindtouchend="touchEnd" data-index="{{ index }}" style="{{ item.txtStyle }}">
+                {{ item.txt }}
+            </view>
+            <view class="inner del" bindtap="delItem" data-index="{{ index }}">删除</view>
+        </view>
+    </view>
+</view>

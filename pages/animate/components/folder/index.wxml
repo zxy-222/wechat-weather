@@ -1,0 +1,11 @@
+<view class="wrap">
+    <view class="{{showAll? 'limit box': 'box'}}">
+        <view class="{{showAll? 'unfold': ''}}" > {{content}} </view>
+        <view class="pack-up" wx:if="{{!showAll}}" catchtap="foldAll">收起</view>
+        <view class="fold-box" wx:if="{{showAll}}">
+            <view class="fold">{{content}}</view>
+            <view class="more" catchtap="readMore">查看全文</view>
+        </view>
+    </view>
+    
+</view>

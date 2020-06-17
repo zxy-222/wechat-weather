@@ -1,0 +1,25 @@
+.drop-list {
+    width: 100vw;
+    height: 100vh;
+}
+.drop-list .first-list {
+    width: 100%;
+    height: 85rpx;
+    display: flex;
+    border-bottom: 1rpx solid #f2f2f2;
+}
+.drop-list .first-list .first-item {
+    flex: 1;
+    height: 100%;
+    line-height: 85rpx;
+    border-right: 1rpx solid #f2f2f2;
+    color: #666;
+    font-size: 28rpx;
+    text-align: center;
+}
+.drop-list .first-list .first-item:last-child {
+    border-right: 0;
+}
+.drop-list .first-list .first-item.active {
+    color: skyblue
+}

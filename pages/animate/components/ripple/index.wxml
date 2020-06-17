@@ -1,0 +1,10 @@
+<view class="ripple">
+    <view class="inner" style="{{rippleStyle}}">
+        
+    </view>
+    <view class="container" bindtouchstart="clickIt">
+        
+    </view>
+      
+</view>
+  

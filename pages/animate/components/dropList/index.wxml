@@ -1,0 +1,9 @@
+<view class="drop-list">
+    <view class="first-list">
+        <block wx:for="{{firstList}}" wx:key="item">
+            <view class="{{item.id == firstIndex? 'first-item active': 'first-item'}}" catchtap="changeTab" data-id="{{item.id}}">{{item.name}}</view>
+        </block>
+    </view>
+      
+</view>
+  

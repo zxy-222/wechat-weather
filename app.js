@@ -99,6 +99,12 @@ App({
                     complete: function () {
                     }
                 })
+            },
+            fail: res =>{
+                wx.showModal({
+                    title:'授权提示',
+                    content:'授权失败'
+                })
             }
         })
     },  

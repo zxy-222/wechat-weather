@@ -14,11 +14,13 @@
 	"compileType": "miniprogram",
 	"libVersion": "2.5.0",
 	"appid": "wx18829cc8ca774131",
-	"projectname": "weather",
+	"projectname": "wechat-weather",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},
 	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
 	"condition": {
 		"search": {
 			"current": -1,
@@ -36,14 +38,39 @@
 			"currentL": -1,
 			"list": []
 		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
 		"miniprogram": {
-			"current": 0,
+			"current": 2,
 			"list": [
 				{
 					"id": 0,
 					"name": "音乐",
 					"pathName": "pages/music/index",
 					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "动画",
+					"pathName": "pages/animate/list",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "下拉菜单",
+					"pathName": "pages/animate/animate",
+					"query": "id=3&name=下拉菜单",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/animate/animate",
+					"pathName": "pages/animate/animate",
+					"query": "id=8&name=%E5%88%97%E8%A1%A8%E9%A1%B9%E5%B7%A6%E6%BB%91%E5%88%A0%E9%99%A4",
 					"scene": null
 				}
 			]

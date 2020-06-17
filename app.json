@@ -1,47 +1,55 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
     "pages/life/life",
     "pages/graph/index",
     "pages/graph/line",
     "pages/graph/bar",
-    "pages/graph/pie"
+    "pages/graph/pie",
+    "pages/animate/list",
+    "pages/animate/animate"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTextStyle":"black",
+    "navigationBarTextStyle": "black",
     "enablePullDownRefresh": true
   },
-  "tabBar":{
+  "tabBar": {
     "color": "#cdcdcd",
     "selectedColor": "#d81e06",
     "borderStyle": "white",
-    "list":[
-        {
-            "selectedIconPath": "image/icons/home1.png",
-            "iconPath": "image/icons/home.png",
-            "pagePath": "pages/index/index",
-            "text": "首页"
-        },
-
-        {
-            "selectedIconPath": "image/icons/life1.png",
-            "iconPath": "image/icons/life.png",
-            "pagePath": "pages/life/life",
-            "text": "生活指数"
-        },
-        {
-            "selectedIconPath": "image/icons/music.png",
-            "iconPath": "image/icons/music.png",
-            "pagePath": "pages/graph/index",
-            "text": "图表"
-        }
+    "list": [
+      {
+        "selectedIconPath": "image/icons/home1.png",
+        "iconPath": "image/icons/home.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "image/icons/life1.png",
+        "iconPath": "image/icons/life.png",
+        "pagePath": "pages/life/life",
+        "text": "生活指数"
+      },
+      {
+        "selectedIconPath": "image/icons/animate1.png",
+        "iconPath": "image/icons/animate.png",
+        "pagePath": "pages/animate/list",
+        "text": "动画"
+      },
+      {
+        "selectedIconPath": "image/icons/music.png",
+        "iconPath": "image/icons/music.png",
+        "pagePath": "pages/graph/index",
+        "text": "图表"
+      }
     ]
   },
-"permission": {
+  "permission": {
     "scope.userLocation": {
-        "desc": "您的位置信息将用于向您显示所在地的天气状况"
+      "desc": "您的位置信息将用于向您显示所在地的天气状况"
     }
-}
+  },
+  "sitemapLocation": "sitemap.json"
 }
